@@ -1,0 +1,19 @@
+Easy
+1.area of triancle and circle
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("enter the radius");
+	 int r=sc.nextInt();
+	 System.out.println("enter the breadth");
+	 int b=sc.nextInt();
+	 System.out.println("enter the height");
+	 int h=sc.nextInt();
+	 System.out.println("area of circle"+(3.14*r*r));
+	 System.out.println("area of triancle"+(0.5*b*h));
+	}
+}
+
+2.
